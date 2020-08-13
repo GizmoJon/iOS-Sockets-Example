@@ -12,7 +12,7 @@
 		BD290FFC24E5A15500BB485D /* SocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD290FFB24E5A15500BB485D /* SocketClient.swift */; };
 		BD290FFF24E5A18500BB485D /* StarscreamSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD290FFE24E5A18500BB485D /* StarscreamSocketClient.swift */; };
 		BD29100124E5A1C000BB485D /* URLSessionWebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29100024E5A1C000BB485D /* URLSessionWebSocketClient.swift */; };
-		BD29100324E5A22600BB485D /* YoltSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29100224E5A22600BB485D /* YoltSocketClient.swift */; };
+		BD29100324E5A22600BB485D /* CombinedSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29100224E5A22600BB485D /* CombinedSocketClient.swift */; };
 		BD29100524E5A2FA00BB485D /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD29100424E5A2FA00BB485D /* SocketEngine.swift */; };
 		BD7C2ED523E8095C009DC203 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C2ED423E8095C009DC203 /* AppDelegate.swift */; };
 		BD7C2ED923E8095C009DC203 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C2ED823E8095C009DC203 /* MainViewController.swift */; };
@@ -30,7 +30,7 @@
 		BD290FFB24E5A15500BB485D /* SocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketClient.swift; sourceTree = "<group>"; };
 		BD290FFE24E5A18500BB485D /* StarscreamSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarscreamSocketClient.swift; sourceTree = "<group>"; };
 		BD29100024E5A1C000BB485D /* URLSessionWebSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionWebSocketClient.swift; sourceTree = "<group>"; };
-		BD29100224E5A22600BB485D /* YoltSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoltSocketClient.swift; sourceTree = "<group>"; };
+		BD29100224E5A22600BB485D /* CombinedSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedSocketClient.swift; sourceTree = "<group>"; };
 		BD29100424E5A2FA00BB485D /* SocketEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketEngine.swift; sourceTree = "<group>"; };
 		BD7C2ED123E8095C009DC203 /* WebsocketsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebsocketsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD7C2ED423E8095C009DC203 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 			children = (
 				BD290FFE24E5A18500BB485D /* StarscreamSocketClient.swift */,
 				BD29100024E5A1C000BB485D /* URLSessionWebSocketClient.swift */,
-				BD29100224E5A22600BB485D /* YoltSocketClient.swift */,
+				BD29100224E5A22600BB485D /* CombinedSocketClient.swift */,
 			);
 			path = ConcreteClients;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD29100124E5A1C000BB485D /* URLSessionWebSocketClient.swift in Sources */,
-				BD29100324E5A22600BB485D /* YoltSocketClient.swift in Sources */,
+				BD29100324E5A22600BB485D /* CombinedSocketClient.swift in Sources */,
 				BD290FFC24E5A15500BB485D /* SocketClient.swift in Sources */,
 				BD7C2ED923E8095C009DC203 /* MainViewController.swift in Sources */,
 				BD290FFA24E5A14100BB485D /* SocketResult.swift in Sources */,

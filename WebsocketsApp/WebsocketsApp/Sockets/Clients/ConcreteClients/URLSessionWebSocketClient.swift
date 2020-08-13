@@ -21,6 +21,7 @@ class URLSessionWebSocketClient: SocketClient {
     
     func connect() {
         self.socket.resume()
+        observationClosure?(.connected)
     }
     
     func write(text: String) {

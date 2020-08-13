@@ -21,8 +21,8 @@ class MainViewController: UIViewController {
             guard let deviceId = controller.textFields?.first?.text else {
                 return
             }
-            self?.viewModel.connectToSocket()
             self?.viewModel.registerDeviceId(deviceId)
+            self?.viewModel.connectToSocket()
         }))
         return controller
     }()
